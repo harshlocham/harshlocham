@@ -36,22 +36,4 @@ A **real-time chat application** built to scale and optimized for a smooth user 
 
 ---
 
-## 🏗️ Project Architecture
 
-```mermaid
-graph TD
-
-A[🧑 User] -->|1. UI Interaction| B[🌐 Next.js Frontend]
-B -->|2. API Calls / Auth| C[🧠 Node.js + Express Backend]
-C -->|3. Real-Time Events| D[⚡ Socket.IO Server]
-C -->|4. Data Read/Write| E[(🗄️ MongoDB Database)]
-C -->|5. File Uploads| F[🖼️ ImageKit CDN]
-B -->|6. WebRTC| G[📞 Peer-to-Peer Video Calling]
-
-style A fill:#fffb,stroke:#000,stroke-width:1px
-style B fill:#38bdf8,stroke:#000,stroke-width:1px
-style C fill:#16a34a,stroke:#000,stroke-width:1px
-style D fill:#facc15,stroke:#000,stroke-width:1px
-style E fill:#22c55e,stroke:#000,stroke-width:1px
-style F fill:#f97316,stroke:#000,stroke-width:1px
-style G fill:#ec4899,stroke:#000,stroke-width:1px
