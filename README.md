@@ -1,22 +1,80 @@
 # 👋 Hey, I'm Harshdeep Singh
 
-I'm a **Full-Stack Developer** passionate about crafting **real-time**, **scalable**, and **user-friendly** web applications.  
-Currently, I’m building a **next-gen chat platform** with cutting-edge features like group messaging, video calling, typing indicators, and seamless media sharing.
+I build **real-time, scalable systems** with a focus on low-latency communication, clean architecture, and production reliability.
+
+Currently, I'm working on a **next-gen chat platform** that goes beyond simple messaging—covering real-time presence, distributed systems, and peer-to-peer communication.
 
 ---
 
-## 🚀 Featured Project: [ChatApp](https://github.com) <!-- Replace with actual repo URL -->
+## 🚀 Featured Project: ChatApp
 
-A **real-time chat application** built to scale and optimized for a smooth user experience.
+A **production-oriented real-time chat system** designed for scalability, reliability, and seamless user experience.
 
-### ✨ Key Features
-- 🧑‍🤝‍🧑 **Group & Direct Messaging** — One-to-one and group conversations.  
-- 📡 **Typing Indicators & Online Status** — Real-time activity updates.  
-- 🖼️ **Media Uploads** — Seamless image sharing with **ImageKit**.  
-- 📞 **Video Calling** — WebRTC-based peer-to-peer calls.  
-- ⚡ **Live Sync** — Instant updates via **Socket.IO**.  
+### 🧠 Architecture
+
+This project is structured as a **modular, distributed system**:
+
+- **Web App (Next.js)**  
+  Handles authentication, REST APIs, and data persistence.
+
+- **Socket Server (Express + Socket.IO)**  
+  Dedicated real-time transport layer for messaging and event fan-out.
+
+- **Redis**  
+  Powers presence tracking and pub/sub for cross-instance synchronization.
+
+- **Shared Packages (Monorepo)**  
+  Ensures type-safe communication and consistent contracts across services.
 
 ---
+
+### ⚡ Key Engineering Highlights
+
+- **Real-time messaging system** with low-latency event delivery  
+- **Horizontal scaling support** using Redis pub/sub  
+- **Presence system** (online/offline/typing) synced across multiple instances  
+- **WebRTC-based video calling** (peer-to-peer communication)  
+- **Robust socket lifecycle handling** (reconnects, state sync, edge cases)  
+- **Media upload pipeline** using ImageKit with optimized delivery  
+- **Clean monorepo architecture** for scalability and maintainability  
+
+---
+
+### 🏗️ System Design Focus
+
+- Event-driven architecture for real-time updates  
+- Separation of concerns between API and real-time layers  
+- Stateless server design for horizontal scalability  
+- Type-safe contracts across services  
+- Designed with production constraints in mind (latency, reliability, consistency)
+
+---
+
+## 📌 What I Care About
+
+- Building systems that **scale beyond a single server**
+- Writing code that is **clean, maintainable, and extensible**
+- Designing architectures that handle **real-world edge cases**
+- Focusing on **performance, latency, and user experience**
+
+---
+
+## 📈 Current Focus
+
+- Improving distributed system reliability  
+- Exploring advanced real-time patterns  
+- Building production-grade features (not just demos)  
+
+---
+
+## 🤝 Let's Connect
+
+I'm always open to:
+- Backend / Full-stack roles  
+- Startup environments  
+- Systems-focused engineering challenges  
+
+If you're working on something interesting, feel free to reach out 🚀
 
 ## 🛠️ Tech Stack & Tools
 
