@@ -1,97 +1,195 @@
 # 👋 Hey, I'm Harshdeep Singh
 
-I build **real-time, scalable systems** with a focus on low-latency communication, clean architecture, and production reliability.
+I'm a software engineer passionate about building **distributed systems, AI agent infrastructure, and real-time applications**.
 
-Currently, I'm working on a **next-gen chat platform** that goes beyond simple messaging—covering real-time presence, distributed systems, and peer-to-peer communication.
+I enjoy designing systems that prioritize **reliability, scalability, maintainability, and developer experience**—from low-latency communication layers to multi-agent orchestration platforms.
 
----
-
-## 🚀 Featured Project: ChatApp
-
-A **production-oriented real-time chat system** designed for scalability, reliability, and seamless user experience.
-
-### 🧠 Architecture
-
-This project is structured as a **modular, distributed system**:
-
-- **Web App (Next.js)**  
-  Handles authentication, REST APIs, and data persistence.
-
-- **Socket Server (Express + Socket.IO)**  
-  Dedicated real-time transport layer for messaging and event fan-out.
-
-- **Redis**  
-  Powers presence tracking and pub/sub for cross-instance synchronization.
-
-- **Shared Packages (Monorepo)**  
-  Ensures type-safe communication and consistent contracts across services.
+Currently, I'm building **AgentMesh AI**, an open-source platform focused on agent execution, orchestration, task lifecycles, and production-grade AI systems.
 
 ---
 
-### ⚡ Key Engineering Highlights
+# 🚀 Featured Project: AgentMesh AI
 
-- **Real-time messaging system** with low-latency event delivery  
-- **Horizontal scaling support** using Redis pub/sub  
-- **Presence system** (online/offline/typing) synced across multiple instances  
-- **WebRTC-based video calling** (peer-to-peer communication)  
-- **Robust socket lifecycle handling** (reconnects, state sync, edge cases)  
-- **Media upload pipeline** using ImageKit with optimized delivery  
-- **Clean monorepo architecture** for scalability and maintainability  
+**AgentMesh AI** is a platform for building, orchestrating, and managing AI agents at scale.
+
+Rather than focusing on a single AI workflow, AgentMesh AI is designed as a foundation for creating reliable, observable, and extensible agent-driven systems.
+
+## 🧠 Architecture
+
+The platform follows a modular architecture built around separation of concerns and distributed execution.
+
+### Core Components
+
+#### 🌐 Web Platform (Next.js)
+
+- Authentication & authorization
+- Agent management
+- Workflow visualization
+- Monitoring dashboards
+- User experience layer
+
+#### ⚙️ Task Worker Runtime
+
+- Agent execution engine
+- Task lifecycle management
+- Retry orchestration
+- State transitions
+- Execution tracking
+
+#### 🤖 Agent Orchestration Layer
+
+- Multi-agent coordination
+- Workflow execution
+- Tool invocation
+- Context propagation
+- Event processing
+
+#### 📦 Shared Packages (Monorepo)
+
+- Type-safe contracts
+- Shared schemas
+- Runtime abstractions
+- SDK utilities
 
 ---
 
-### 🏗️ System Design Focus
+## ⚡ Engineering Highlights
 
-- Event-driven architecture for real-time updates  
-- Separation of concerns between API and real-time layers  
-- Stateless server design for horizontal scalability  
-- Type-safe contracts across services  
-- Designed with production constraints in mind (latency, reliability, consistency)
+### Agent Infrastructure
+
+- Agent execution runtime
+- Multi-agent workflow orchestration
+- Tool calling support
+- Execution history tracking
+- Checkpoint and state management
+- Context-aware task execution
+
+### Distributed Systems
+
+- Event-driven architecture
+- Asynchronous task processing
+- Retry orchestration strategies
+- Fault-tolerant execution patterns
+- Horizontal scalability design
+- Service boundary separation
+
+### Reliability & Observability
+
+- State-machine-driven task management
+- Structured execution lifecycle
+- Auditability and traceability
+- Failure recovery mechanisms
+- Runtime monitoring capabilities
+- Execution logging and diagnostics
+
+### Developer Experience
+
+- Monorepo architecture
+- Shared type-safe packages
+- Modular service design
+- Extensible architecture
+- Clear architectural boundaries
+- Maintainable code organization
 
 ---
 
-## 📌 What I Care About
+# 🏗️ Areas of Interest
 
-- Building systems that **scale beyond a single server**
-- Writing code that is **clean, maintainable, and extensible**
-- Designing architectures that handle **real-world edge cases**
-- Focusing on **performance, latency, and user experience**
-
----
-
-## 📈 Current Focus
-
-- Improving distributed system reliability  
-- Exploring advanced real-time patterns  
-- Building production-grade features (not just demos)  
+- Distributed Systems
+- AI Agent Infrastructure
+- Workflow Orchestration
+- Real-Time Communication
+- Backend Architecture
+- Reliability Engineering
+- Event-Driven Systems
+- Developer Platforms
 
 ---
 
-## 🤝 Let's Connect
+# 📌 Engineering Principles
 
-I'm always open to:
-- Backend / Full-stack roles  
-- Startup environments  
-- Systems-focused engineering challenges  
+### Build for Scale
 
-If you're working on something interesting, feel free to reach out 🚀
+I prefer systems that can evolve beyond a single service or server.
 
-## 🛠️ Tech Stack & Tools
+### Reliability First
+
+Production systems should handle failures gracefully and remain observable.
+
+### Simplicity Over Complexity
+
+Good architecture reduces complexity rather than hiding it.
+
+### Long-Term Maintainability
+
+Readable code and clear boundaries matter more than short-term speed.
+
+---
+
+# 📈 Current Focus
+
+- AI Agent Orchestration Systems
+- Distributed Execution Runtimes
+- Task Lifecycle Architectures
+- Reliability & Fault Tolerance
+- Event-Driven Backend Systems
+- Open Source Infrastructure Projects
+
+---
+
+# 🤝 Open to Opportunities
+
+I'm interested in:
+
+- Backend Engineering
+- Full-Stack Engineering
+- Platform Engineering
+- AI Infrastructure
+- Agent Systems
+- Developer Tools
+- Startup Environments
+- Open Source Collaboration
+
+If you're building something ambitious in AI, distributed systems, or developer infrastructure, feel free to connect.
+
+---
+
+# 🛠️ Tech Stack & Tools
+
+### Languages
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Frontend
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### Backend
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+
+### Databases & Infrastructure
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Authentication & State
+
 ![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=for-the-badge&logo=auth0&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-593D88?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+### DevOps & Tooling
+
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-
+> Building reliable systems, one architecture decision at a time.
