@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Building+AgentMesh+AI;Distributed+Systems+Enthusiast;AI+Agent+Infrastructure;Real-Time+Systems+Engineer;Open+Source+Contributor" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Building+Semantask;Distributed+Systems+Enthusiast;AI+Agent+Infrastructure;Real-Time+Systems+Engineer;Open+Source+Contributor" />
 </p>
 
 ---
 
 ## 🚀 What I'm Building
 
-**AgentMesh AI** — an open-source platform for:
+**Semantask** — an open-source platform for:
 
 - 🤖 AI Agent Orchestration
 - ⚡ Distributed Task Execution
