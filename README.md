@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Harshdeep Singh</h1>
 
 <p align="center">
-  Full-stack engineer building real-time, asynchronous systems with applied AI/LLM integration.
+   Backend engineer building real-time, asynchronous systems with applied AI/LLM integration.
 </p>
 
 <p align="center">
